@@ -4,21 +4,19 @@ Title: Summary Scores of the Adolescent Brain Cognitive Development
 Description: Provides functions to compute summary scores
   (besides proprietary ones) reported in the tabulated data resource that is
   released by the Adolescent Brain Cognitive Development (ABCD) study.
-  Feldstein Ewing and Luciana (2018)
-  <https://www.sciencedirect.com/journal/developmental-cognitive-neuroscience/vol/32>.
 URL: https://software.nbdc-datahub.org/ABCDscores/
-Version: 6.0.1
+Version: 6.1.0
 Authors@R: c(
-  person(given = "Janosch",
-         family = "Linkersdoerfer",
-         email = "dairc.service@gmail.com",
-         role = c("aut", "cre"),
-         comment = c(ORCID = "0000-0002-1577-1233")), 
   person(given = "Le",
          family = "Zhang",
-         email = "lezhang100@gmail.com",
-         role = c("aut"),
+         email = "dairc.service@gmail.com",
+         role = c("aut", "cre"),
          comment = c(ORCID = "0009-0008-0205-2150")), 
+  person(given = "Janosch",
+         family = "Linkersdoerfer",
+         email = "linkersdoerfer@gmail.com",
+         role = c("aut"),
+         comment = c(ORCID = "0000-0002-1577-1233")), 
   person(given = "Olivier",
          family = "Celhay",
          email = "olivier.celhay@gmail.com",
@@ -54,14 +52,14 @@ LazyData: true
 Config/roxyglobals/filename: globals.R
 Config/roxyglobals/unique: TRUE
 NeedsCompilation: no
-Packaged: 2025-09-08 19:53:56 UTC; lz
-Author: Janosch Linkersdoerfer [aut, cre] (ORCID:
+Packaged: 2025-11-26 00:25:28 UTC; lz
+Author: Le Zhang [aut, cre] (ORCID: <https://orcid.org/0009-0008-0205-2150>),
+  Janosch Linkersdoerfer [aut] (ORCID:
     <https://orcid.org/0000-0002-1577-1233>),
-  Le Zhang [aut] (ORCID: <https://orcid.org/0009-0008-0205-2150>),
   Olivier Celhay [aut] (ORCID: <https://orcid.org/0000-0002-2971-9110>),
   Biplabendu Das [aut] (ORCID: <https://orcid.org/0000-0003-0855-262X>),
   Sammy Berman [aut] (ORCID: <https://orcid.org/0000-0002-9803-019X>),
   Laura Ziemer [aut] (ORCID: <https://orcid.org/0000-0003-0026-3823>)
-Maintainer: Janosch Linkersdoerfer <dairc.service@gmail.com>
+Maintainer: Le Zhang <dairc.service@gmail.com>
 Repository: CRAN
-Date/Publication: 2025-09-11 09:00:16 UTC
+Date/Publication: 2025-11-26 00:52:04 UTC
